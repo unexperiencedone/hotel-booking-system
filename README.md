@@ -7,7 +7,7 @@ A small, opinionated hotel management web application built with Next.js and Typ
 - User authentication (register / login).
 - Search and browse hotels.
 - Create and manage bookings.
-- Reusable UI components and simple layouts under pp/ and components/.
+- Reusable UI components and simple layouts under app/ and components/.
 - Database layer and validation code under db/ (uses Drizzle for schema/queries).
 
 ## Tech stack
@@ -20,13 +20,13 @@ A small, opinionated hotel management web application built with Next.js and Typ
 
 1. Install dependencies:
 
-`ash
+`bash
 npm install
 `
 
 2. Run the development server:
 
-`ash
+`bash
 npm run dev
 `
 
@@ -36,7 +36,7 @@ Configure environment variables as needed (for example a DATABASE_URL if you con
 
 ## Project structure (high level)
 
-- pp/ — Next.js pages and route handlers (UI, auth actions, booking flows).
+- app/ — Next.js pages and route handlers (UI, auth actions, booking flows).
 - components/ — Shared UI components (Navbar, Footer, UI primitives).
 - db/ — Schema, DB helpers, and validation.
 - lib/ — Utility helpers.
